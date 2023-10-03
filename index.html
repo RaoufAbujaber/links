@@ -1,1 +1,100 @@
-My link in bio
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #3498db;
+      display: flex;
+      justify-content: center;
+    }
+    .name {
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      color: white;
+      font-family: 'Lobster', cursive;
+    }
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      border-radius: 128px;
+      border: 5px solid black;
+      object-fit: cover;
+    } 
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+      text-decoration: none;
+    }
+    .link {
+      background-color: #9660f9;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+      font-family: 'Lobster', cursive;
+    }
+  </style>
+</head>
+<body>
+  <div class="items">
+  <div class="banner">
+    <img src="profile-pic.jpg" alt="Scuba Diver" class = 'banner-image'>
+  </div>
+
+  <div class="name">
+    Raouf Abujaber
+  </div>
+
+  <div class="social-icons">
+    <a href="https://github.com/RaoufAbujaber" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Logo" width="50" height="50">
+    </a>
+
+    <a href="https://www.linkedin.com/in/raouf-abujaber-169330256/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" alt="LinkedIn Logo" width="50" height="50">
+    </a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="https://media.istockphoto.com/id/1310996895/vector/yellow-rubber-duck-vector-icon.jpg?s=612x612&w=0&k=20&c=2U-G5vgfI4YEMqFEIwrLuJ9VRv0uo5PXNQqLsPK32PM=">
+    <a target="_blank" href="https://ducksinthewindow.com/">Ducks in the Window</a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="data:image/jpeg;base64,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">
+
+    <a target="_blank" href="https://crossdivisions.com/">Cross Divisions</a>
+  </div>
+
+  <div class="link">
+    <img class="thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_--l6wuy4DNlP8Q78Y1OYv72KuB4vY3bmBmJIC-Kf00kpu7V1">
+
+    <a target="_blank" href="https://jamesclear.com/articles"> Best Articles by Genre - James Clear</a>
+  </div>
+</div>
+  <!-- Etc, for as many links as you want -->
+</body>
